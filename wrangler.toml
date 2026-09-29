@@ -1,10 +1,8 @@
 name = "faulina-andriii-web"
-main = "src/index.js"
 compatibility_date = "2026-09-26"
 
 [assets]
-directory = "./public/"
-binding = "ASSETS"
+directory = "."
 
 kv_namespaces = [
   { binding = "RSVP_KV", id = "3347282595fb452a90dbb1dc8f1b2f2a" }
