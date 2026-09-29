@@ -1,11 +1,11 @@
-name = "faulina-andriii-web"
-main = "src/index.js"
-compatibility_date = "2026-09-26"
-
-[assets]
-directory = "."
-binding = "ASSETS"
-
-[[kv_namespaces]]
-binding = "RSVP_KV"
-id = "3347282595fb452a90dbb1dc8f1b2f2a
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "faulina-andriii-web",
+  "compatibility_date": "2026-09-26",
+  "main": "index.js",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application"
+  }
+}
