@@ -7,5 +7,5 @@ directory = "./public/"
 binding = "ASSETS"
 
 kv_namespaces = [
-  { binding = "RSVP_KV", id = "<3347282595fb452a90dbb1dc8f1b2f2a>" }
+  { binding = "RSVP_KV", id = "3347282595fb452a90dbb1dc8f1b2f2a" }
 ]
